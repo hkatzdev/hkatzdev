@@ -6,7 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/hkatzdev",
   plugins: [`gatsby-plugin-postcss`,
     { 
       resolve: `gatsby-plugin-purgecss`,

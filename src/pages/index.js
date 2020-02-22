@@ -4,7 +4,7 @@ const NAME = "@hkatzdev"
 const OUTSIDE_SITES = [
   ["https://github.com/hkatzdev", "Github"],
   ["https://www.linkedin.com/in/hkatzdev/", "LinkedIn"],
-  ["https://repl.it/@CodeK1", "Repl.it"],
+  ["https://repl.it/@hkatzdev", "Repl.it"],
   ["https://www.agourahackclub.com/", "Agoura HC"],
   ["https://hackclub.com/community", "Slack"],
 ];
