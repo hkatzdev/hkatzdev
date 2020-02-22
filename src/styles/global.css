@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.terminal-green {
+  color: #33FF33;
+}
+
+/* This parent can be any width and height */
+.block {
+  text-align: center;
+  size: 0;
+}
+ 
+/* The ghost, nudged to maintain perfect centering */
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* The element to be centered, can also be of any width and height */ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fullMinusNav {
+  height: calc(100vh - 1rem);
+}
+
+.rotate-90 {
+  transition: transform 0.5s;
+}
+.rotate-90:hover {
+  transform: rotate(90deg);
+}
